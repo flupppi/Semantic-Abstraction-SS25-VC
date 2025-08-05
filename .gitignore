@@ -4,6 +4,8 @@ cc_textures/
 matterplot3d/
 scenenet/
 
+nbs/data/*.glb
+
 _docs/
 _proc/
 
