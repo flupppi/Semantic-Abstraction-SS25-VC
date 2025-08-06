@@ -213,7 +213,7 @@ def ransac_sphere(points, n_trials=1000, sample_size=4, threshold=0.1):
 
     return best_fit, best_inliers
 
-# %% ../nbs/nr_object_stylization.ipynb 27
+# %% ../nbs/nr_object_stylization.ipynb 26
 def analyze_pca(points):
     pca = PCA(n_components=3)
     pca.fit(points)
@@ -221,7 +221,7 @@ def analyze_pca(points):
     variances = pca.explained_variance_ratio_
     return axes, variances
 
-# %% ../nbs/nr_object_stylization.ipynb 29
+# %% ../nbs/nr_object_stylization.ipynb 28
 def set_axes_equal(ax):
     """Set 3D plot axes to equal scale."""
     x_limits = ax.get_xlim3d()
@@ -241,7 +241,7 @@ def set_axes_equal(ax):
     ax.set_ylim3d([y_middle - max_range / 2, y_middle + max_range / 2])
     ax.set_zlim3d([z_middle - max_range / 2, z_middle + max_range / 2])
 
-# %% ../nbs/nr_object_stylization.ipynb 30
+# %% ../nbs/nr_object_stylization.ipynb 29
 def plot_mesh_with_pca_and_box(vertices, pca_axes, fit_box):
     # Inside the function, right after receiving vertices:
     fig = plt.figure(figsize=(10, 10))
