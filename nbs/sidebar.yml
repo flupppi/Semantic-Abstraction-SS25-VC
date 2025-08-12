@@ -3,4 +3,6 @@ website:
     contents:
       - index.ipynb
       - 00_core.ipynb
+      - nr_object_stylization.ipynb
+      - sketching_gestalt_space.ipynb
       - test.ipynb

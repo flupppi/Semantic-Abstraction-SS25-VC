@@ -5,6 +5,7 @@ matterplot3d/
 scenenet/
 
 nbs/data/*.glb
+nbs/data/PointInstancedMedCity
 
 _docs/
 _proc/
@@ -158,3 +159,4 @@ checklink/cookies.txt
 # Quarto
 .quarto
 conda
+/nbs/data/PointInstancedMedCity/
