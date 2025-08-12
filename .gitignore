@@ -160,3 +160,4 @@ checklink/cookies.txt
 .quarto
 conda
 /nbs/data/PointInstancedMedCity/
+/quarto-linux-amd64.deb
