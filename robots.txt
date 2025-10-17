@@ -1,0 +1,1 @@
+Sitemap: https://flupppi.github.io/blenderproc-test-scenes/sitemap.xml
