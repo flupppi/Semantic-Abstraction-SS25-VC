@@ -3,13 +3,7 @@ import blenderproc as bproc
 import numpy as np
 #import debugpy
 
-# Attach debugger
-#debugpy.listen(5678)
-#print("⏳ Waiting for debugger attach...")
-#debugpy.wait_for_client()
-#print("✅ Debugger attached, continuing execution.")
-import pydevd_pycharm
-pydevd_pycharm.settrace('localhost', port=12345, stdoutToServer=True, stderrToServer=True)
+
 
 
 bproc.init()

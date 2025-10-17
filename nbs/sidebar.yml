@@ -3,6 +3,7 @@ website:
     contents:
       - index.ipynb
       - 00_core.ipynb
+      - kiosk_demos.ipynb
       - nr_object_stylization.ipynb
       - sketching_gestalt_space.ipynb
       - test.ipynb
