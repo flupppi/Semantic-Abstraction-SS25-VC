@@ -56,3 +56,12 @@ Additionally you can find package manager specific guidelines on
 [conda](https://anaconda.org/flupppi/blenderproc-test-scenes) and
 [pypi](https://pypi.org/project/blenderproc-test-scenes/) respectively.
 
+## How to use
+
+Fill me in please! Don’t forget code examples:
+
+``` python
+1+1
+```
+
+    2
